@@ -1,0 +1,23 @@
+{
+'success' : true,
+'result':
+    [
+        {
+            "text": "Point1",
+            'children':[
+                {
+                    "text": "SubPoint1",
+                    'leaf':true
+                },
+            ]
+        },
+        {   "text": "Point2",
+            'leaf':true
+        },
+        {
+             "text": "Point3",
+             'leaf':true
+        }
+  ]
+
+}
