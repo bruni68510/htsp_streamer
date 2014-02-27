@@ -105,7 +105,7 @@ class RTMPRoute < Sinatra::Base
     exec_response = ssh_exec!(ssh, "$HOME/installer.sh " + @@crtmp_name + " " + params["version"]) 
      
     if exec_response[2] != 0 
-       return send_error ({ :message => exec_response[0]  })
+       return send_error ({ :message => exec_response[1]  })
     end
         
     ssh.close
@@ -142,7 +142,7 @@ class RTMPRoute < Sinatra::Base
         end
         
         channel.on_data do |ch,data|
-          out << "data: " + data + "\n" unless out.closed?                     
+          out << "data: " + data + "\n\n" unless out.closed?                     
         end
         
         channel.on_close do

@@ -35,7 +35,7 @@ Ext.define("vlc_streamer.view.RTMPInstallRun", {
         store : [
           'x86_64-Ubuntu_12.04',
           'x86_64-Ubuntu_11.10',
-          'MacOSX_10.8',
+          'x86_64-MacOSX_10.8',
           'x86_64-FreeBSD_9.1',
           'x86_64-FreeBSD_9.0',
           'x86_64-Fedora_17',
