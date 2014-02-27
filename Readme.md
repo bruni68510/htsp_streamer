@@ -3,7 +3,7 @@
 The goal of this application is to send the dvb-t streams from TV Headend to the internet
 using a DSL line connection.
 
-The DSL line is restricted is upload, so the stream need to be transcoded prior that he can be sent on the internet.
+The DSL line is restricted in upload, so the stream need to be transcoded prior that he can be sent on the internet.
 
 The application contains three blocks:
 
